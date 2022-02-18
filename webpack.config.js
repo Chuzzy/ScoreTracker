@@ -17,6 +17,10 @@ const electronConfigs = {
         include: /src/,
         use: [{ loader: "ts-loader" }],
       },
+      {
+        test: /\.[sa|sc|c]ss$/,
+        use: ["style-loader", "css-loader", "sass-loader"],
+      },
     ],
   },
   output: {
