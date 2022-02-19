@@ -4,3 +4,18 @@
   font-family: "Poppins", sans-serif;
   font-size: 5vh;
 }
+
+.score-card {
+  text-align: center;
+  line-height: 3em;
+
+  .score-number {
+    margin: 0;
+    font-size: 4rem;
+  }
+
+  .score-name {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+}
