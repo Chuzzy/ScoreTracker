@@ -5,6 +5,11 @@
   font-size: 5vh;
 }
 
+.score-board {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .score-card {
   text-align: center;
   line-height: 3em;
