@@ -15,6 +15,14 @@ ReactDOM.render(
         name: "Steve",
         score: 405,
       },
+      {
+        name: "Ed",
+        score: 2,
+      },
+      {
+        name: "Mike",
+        score: 97,
+      },
     ]}
   />,
   document.getElementById("app")
